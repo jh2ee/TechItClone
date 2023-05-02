@@ -1,20 +1,23 @@
 
 .parent{
     display: flex;
+    top:
 }
 .child{
     flex: 1;
     font-weight: bold;
     margin-top: 15px;
-    
+}
+.child > * {
+    margin-left: 10px;
 }
 .login{
     flex: 1;
-    font-weight: bold;
     margin-top: 15px;
 }
 .logo{
-    margin-left: 80px;
+    top: 10px;
+    margin-left: 75px;
     margin-right: 40px;
 }
 
@@ -91,4 +94,39 @@
 }
 .classdate{
     color:gray;
+}
+
+/* nav bar */
+#ts{
+    position: absolute;
+    left: 270px;
+}
+#ot{
+    position: absolute;
+    left:350px;
+}
+#new{
+    position: absolute;
+    left:420px;
+    top:10px;
+}
+#ss{
+    position: absolute;
+    left: 460px;
+}
+#vc{
+    position: absolute;
+    left: 610px;
+}
+#ee{
+    position: absolute;
+    left: 720px;
+}
+#e{
+    position: absolute;
+    left: 810px;
+}
+#l{
+    position: absolute;
+    right: 100px;
 }
